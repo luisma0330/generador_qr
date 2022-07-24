@@ -26,7 +26,7 @@ body .contenedor {
           backdrop-filter: blur(10px);
 }
 body header {
-  color: #333;
+  color: #fff;
   text-align: center;
 }
 body header h1 {
@@ -77,4 +77,13 @@ body .qr_code #descargar {
   margin: 0;
   color: #fff;
   background: rgb(69, 69, 69);
+}
+body .qr_code #descargar i {
+  color: #fff;
+}
+body .qr_code #descargar:hover {
+  background: #fff;
+}
+body .qr_code #descargar:hover i {
+  color: #333;
 }/*# sourceMappingURL=style.css.map */

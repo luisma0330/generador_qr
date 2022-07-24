@@ -28,7 +28,7 @@ body{
     }
 
     header{
-        color:#333;
+        color:#fff;
         text-align: center;
         h1{
             font-size: 21px;
@@ -82,6 +82,17 @@ body{
             margin: 0;
             color: #fff;
             background: rgb(69, 69, 69);
+
+            i{
+                color: #fff;
+            }
+
+            &:hover{
+                background: #fff;
+                i{
+                    color: #333;
+                }
+            }
         }
     }
 }
